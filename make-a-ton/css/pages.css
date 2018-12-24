@@ -48,11 +48,10 @@ body{
 }
 
 #Introcaption{
-    position: relative;
-    top: 70%;
+    position: fixed;
+    top: 50%;
     left:50%;
     transform: translate(-50%);
-    display: none;
 }
 
 

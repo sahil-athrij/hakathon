@@ -2,8 +2,6 @@
 time = Date.now();
 top1 = $(window).scrollTop();
 $(document).ready(function(){
-            $("#Introcaption").slideDown(500);
-
 
 
 });
@@ -28,9 +26,9 @@ $(window).scroll(function(){
             eval(dic[index]);
             console.log("increment")
         }
-        else if(top1 - $(window).scrollTop() > 0 && index > 0 ){
+        else if(top1 - $(window).scrollTop() > 0 && index > 1 ){
 
-            if(index > 0){
+            if(index > 1){
                 index -= 1;
             }
             eval(dic[index]);
