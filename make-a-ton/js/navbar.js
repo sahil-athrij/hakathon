@@ -3,6 +3,8 @@
 previd = "navhome";
 prevpage = "#intro";
 function makeactive(id,page) {
+
+
     var NAME = document.getElementById(previd);
     NAME.className=" ";
     var NAME = document.getElementById(id);
